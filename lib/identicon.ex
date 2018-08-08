@@ -39,7 +39,7 @@ defmodule Identicon do
       :egd.filledRectangle(image, start, stop, fill)
     end
 
-    :edg.render(image)
+    :egd.render(image)
   end
 
   def build_pixel_map(%Identicon.Image{grid: grid} = image) do
